@@ -149,8 +149,8 @@ are `lista`, `instalar <id>`, `verificar`, `atualizar`, `jogar <id>` and `remove
 
 ## Credits and license
 
-- Catalog built from Nexo's own curation, [recomplauncher.com](https://recomplauncher.com) and
-  [recomphub.com](https://recomphub.com); art from [SteamGridDB](https://www.steamgriddb.com).
+- Catalog built by Nexo's own curation from public sources on the internet; art from
+  [SteamGridDB](https://www.steamgriddb.com).
 - UI made with [Slint](https://slint.dev).
 - [Inter](https://rsms.me/inter/), [Sora](https://github.com/sora-xor/sora-font) and
   [Lora](https://github.com/cyrealtype/Lora-Cyrillic) fonts (SIL OFL).

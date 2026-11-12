@@ -6,6 +6,16 @@ O Nexo instalado avisa quando sai uma versão nova e só atualiza com o seu OK.
 
 *English summary at the end of each version.*
 
+## [1.1.1] — 12/11/2026
+
+### Melhorias
+- Créditos do catálogo atualizados: o catálogo é montado pela curadoria do Nexo a partir de bases
+  públicas da internet. A arte continua vindo do SteamGridDB.
+
+### English
+Catalog credits updated: the catalog is built by Nexo's own curation from public sources on the
+internet. Art still comes from SteamGridDB.
+
 ## [1.1.0] — 12/11/2026
 
 ### Novidades

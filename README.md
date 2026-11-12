@@ -148,8 +148,8 @@ Junto vem o `nexo-cli`, para scripts e servidores: `nexo-cli ajuda` lista tudo. 
 
 ## Créditos e licença
 
-- Catálogo montado a partir da curadoria do Nexo, do [recomplauncher.com](https://recomplauncher.com) e do
-  [recomphub.com](https://recomphub.com); arte do [SteamGridDB](https://www.steamgriddb.com).
+- Catálogo montado pela curadoria do Nexo a partir de bases públicas da internet; arte do
+  [SteamGridDB](https://www.steamgriddb.com).
 - Interface feita com [Slint](https://slint.dev).
 - Fontes [Inter](https://rsms.me/inter/), [Sora](https://github.com/sora-xor/sora-font) e
   [Lora](https://github.com/cyrealtype/Lora-Cyrillic) (SIL OFL).
