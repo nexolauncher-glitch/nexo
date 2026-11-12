@@ -6,6 +6,33 @@ O Nexo instalado avisa quando sai uma versão nova e só atualiza com o seu OK.
 
 *English summary at the end of each version.*
 
+## [1.2.0] — 12/11/2026
+
+### Novidades
+- **Comunidade**: dê nota de 1 a 5 e comente como cada projeto rodou no seu PC. Todo mundo que usa o
+  Nexo vê as notas e os comentários.
+  - Entre com o **Discord** (uma vez só; o Nexo guarda a sessão). Só o seu nome e a sua inicial
+    aparecem; nada é publicado no seu Discord.
+  - Nova aba **Comunidade**, com os mais bem avaliados e as avaliações recentes.
+  - Na página de cada jogo: a nota média, os comentários e a sua avaliação, que você edita ou apaga
+    quando quiser.
+  - Comentários não aceitam links. Avaliações com 3 denúncias ficam escondidas até a moderação
+    revisar.
+  - **Apagar minha conta** apaga na hora a conta e todas as suas avaliações.
+    [Política de privacidade](https://github.com/nexolauncher-glitch/nexo/blob/main/docs/privacidade.md).
+
+### Correções
+- No Windows, links com endereço comprido podiam abrir a pasta Documentos em vez do navegador.
+
+### English
+New **Community**: rate projects from 1 to 5 and comment on how they ran on your PC, visible to every
+Nexo user. Sign in once with Discord (only your name and initial are shown; nothing is posted to your
+Discord). New Community tab with top-rated projects and recent ratings; each game page shows the
+average, comments and your own rating, which you can edit or delete. No links in comments; ratings with
+3 reports are hidden until reviewed; **Delete my account** removes your account and all your ratings
+right away ([privacy policy](https://github.com/nexolauncher-glitch/nexo/blob/main/docs/privacidade.md)). Fixed: on Windows, long links could open the
+Documents folder instead of the browser.
+
 ## [1.1.1] — 12/11/2026
 
 ### Melhorias

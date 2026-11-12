@@ -69,6 +69,10 @@ Forgejo/Gitea hosts, for recomps, ports and emulators.
   play time.
 - On Linux, Windows-only games run through **Proton, umu-run or Wine**.
 
+**Community**
+- 1–5 ratings and comments from players, on each project page and in the Community tab.
+- Sign in with Discord; it's optional and nothing is posted there. [Privacy](docs/privacidade.md).
+
 **Look and comfort**
 - Dark or light theme, Portuguese or English.
 - **TV mode**: fullscreen, larger UI and complete controller navigation. Turns on by itself in Steam

@@ -68,6 +68,10 @@ Codeberg e outros Forgejo/Gitea, para recomps, ports e emuladores.
 - **Adicionar à Steam** com a capa do jogo: o atalho abre pelo Nexo, com versão, Proton e tempo de jogo.
 - No Linux, jogos de Windows rodam pelo **Proton, umu-run ou Wine**.
 
+**Comunidade**
+- Notas de 1 a 5 e comentários de quem joga, na página de cada projeto e na aba Comunidade.
+- Entre com o Discord; é opcional e nada é publicado lá. [Privacidade](docs/privacidade.md).
+
 **Aparência e conforto**
 - Visual escuro ou claro, em português ou inglês.
 - **Modo TV**: tela cheia, tudo maior e navegação completa pelo controle. Liga sozinho no modo jogo
