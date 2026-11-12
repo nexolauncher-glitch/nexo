@@ -6,6 +6,29 @@ O Nexo instalado avisa quando sai uma versão nova e só atualiza com o seu OK.
 
 *English summary at the end of each version.*
 
+## [1.1.0] — 12/11/2026
+
+### Novidades
+- **Instalador com passo a passo** no Windows e no Linux, com a arte do Nexo: escolha onde ficam o
+  programa, os jogos de PC, os emuladores, os seus jogos de emulador e os backups dos saves (o
+  recomendado é tudo numa pasta só), com atalhos na área de trabalho e no menu.
+- **Desinstalador**: no Windows, em Configurações > Aplicativos; no Linux, no menu de aplicativos.
+  Sai o programa, os atalhos e o registro; jogos, emuladores e saves nunca são apagados.
+- **Pastas separadas** para os jogos de PC e para os emuladores, em Configurações > Pastas.
+
+### Melhorias
+- **Linux universal**: o mesmo pacote roda em qualquer distribuição x64 de 2018 para cá (Ubuntu,
+  Fedora, Arch, Mint, SteamOS, Bazzite, CachyOS...), sem instalar nada antes.
+- O update do Nexo também atualiza a licença e a lista de bibliotecas de terceiros.
+
+### English
+New step-by-step installer for Windows and Linux with Nexo's artwork: choose where the program, PC
+games, emulators, your emulator games and save backups go (everything in one folder is recommended),
+plus desktop and menu shortcuts. New uninstaller (Windows Settings > Apps, or the Linux applications
+menu) that never deletes games, emulators or saves. Separate folders for PC games and emulators. The
+Linux package now runs on any x64 distro from 2018 on (SteamOS included), and self-updates also refresh
+the license and third-party notices.
+
 ## [1.0.0] — 12/11/2026
 
 Primeira versão pública e estável.

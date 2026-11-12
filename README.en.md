@@ -33,6 +33,13 @@ to install, update and set up the game.
 - **SHA-256 checks** on every file, and it **never deletes your saves**;
 - a **TV mode** with full controller support, for the couch or the Steam Deck.
 
+### Add any project, without waiting for anyone
+
+A new recomp or an emulator that isn't in the catalog yet? **Paste the repository link into "Add game"
+(or "Add emulator") and you're done**: Nexo installs, updates and organizes it like any other, right on
+your machine, without waiting for the Nexo admins to add it. Works with GitHub, Codeberg and other
+Forgejo/Gitea hosts, for recomps, ports and emulators.
+
 > Nexo **does not ship games, keys, firmware or BIOS files**. Catalog projects ask for your own copy
 > of the game; Nexo only downloads what the developer published and keeps it organized for you.
 
@@ -86,18 +93,26 @@ to install, update and set up the game.
 Get the latest version from **[Releases](https://github.com/nexolauncher-glitch/nexo/releases/latest)**.
 
 ### Windows 10/11 (64-bit)
-1. Download `nexo-…-windows-x64.zip` and extract it to a folder of yours (e.g. `Documents\Nexo`).
-2. Run `nexo.exe`.
+1. Download `Nexo-…-Instalador-Windows.zip` and **extract it** (right-click → **Extract All**).
+2. Run **`Instalar Nexo ….exe`** and follow the steps.
 3. The first time, Windows may show **"Windows protected your PC"**, because Nexo does not have a paid
    code-signing certificate yet. Click **More info → Run anyway**.
 
-### Linux (x64)
-1. Download `nexo-…-linux-x64.tar.gz` and extract it:
+### Linux (any x64 distro)
+1. Download `Nexo-…-Instalador-Linux.tar.gz` and **extract it** (right-click → **Extract here**).
+2. Run **`Instalar-Nexo-…`** and follow the steps. From a terminal:
    ```bash
-   mkdir -p ~/Nexo && tar -xzf nexo-*-linux-x64.tar.gz -C ~/Nexo
+   tar -xzf Nexo-*-Instalador-Linux.tar.gz && ./Instalar-Nexo-*
    ```
-2. Run `~/Nexo/nexo`.
 3. For games that only have a Windows build, install **Proton** (through Steam) or **umu-launcher**.
+
+The same package runs on Ubuntu, Fedora, Arch, Mint, SteamOS, Bazzite, CachyOS and others, with nothing
+to install first.
+
+The installer asks where the program, PC games, emulators, your emulator games and save backups go
+(everything in one folder is recommended) and creates the shortcuts:
+
+![Nexo installer](docs/capturas/instalador-en.jpg)
 
 On the Steam Deck and other systems with Steam's Game Mode, use **Settings → Add Nexo to Steam** to open
 it in TV mode straight from Game Mode.
@@ -112,14 +127,20 @@ package's SHA-256 before replacing any file.
 **Is Nexo piracy?** No. It doesn't host or download commercial games. Catalog projects are free
 programs published by their authors on GitHub, and each one asks for game files you already own.
 
-**Where are the games stored?** In the folder you pick under **Settings → Folders** (by default
-`Nexo/Jogos` in your home folder). Each game gets one folder per version.
+**Where are the games stored?** In the folders you pick in the installer or under **Settings →
+Folders**: one for PC games and one for emulators (by default `Nexo/Jogos/PC` and
+`Nexo/Jogos/Emuladores` in your home folder). Each game gets one folder per version.
+
+**How do I uninstall Nexo?** On Windows, **Settings → Apps → Nexo**; on Linux, right-click Nexo in the
+applications menu → **Uninstall Nexo**. Only the program and shortcuts go away: games, emulators and
+saves stay where they are.
 
 **Does uninstalling a game delete my saves?** No. Nexo only deletes files it installed itself, and shows
 you what will go first.
 
-**I found a project that isn't in the catalog.** Use **Add game** with the repository link, or open an
-*issue* here so it joins everyone's catalog.
+**I found a project that isn't in the catalog.** Use **Add game** (or **Add emulator**) with the
+repository link: it works right away, in your Nexo. If you'd like it in everyone's catalog, open an
+*issue* here.
 
 ## Command line
 

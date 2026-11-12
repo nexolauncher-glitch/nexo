@@ -33,6 +33,13 @@ O **Nexo** junta tudo isso num launcher leve, para Windows e Linux:
 - confere o **SHA-256** de cada arquivo e **nunca apaga os seus saves**;
 - tem **modo TV** com controle, para jogar no sofá ou no Steam Deck.
 
+### Adicione qualquer projeto, sem esperar ninguém
+
+Saiu um recomp novo ou um emulador que ainda não está no catálogo? **Cole o link do repositório em
+"Adicionar jogo" (ou "Adicionar emulador") e pronto**: o Nexo instala, atualiza e organiza como qualquer
+outro, direto na sua máquina, sem esperar os administradores do Nexo incluírem. Funciona com GitHub,
+Codeberg e outros Forgejo/Gitea, para recomps, ports e emuladores.
+
 > O Nexo **não traz jogos, chaves, firmware nem BIOS**. Os projetos do catálogo pedem a sua própria
 > cópia do jogo; o Nexo só baixa o que o desenvolvedor publicou e organiza para você.
 
@@ -85,18 +92,26 @@ O **Nexo** junta tudo isso num launcher leve, para Windows e Linux:
 Baixe a versão mais nova em **[Releases](https://github.com/nexolauncher-glitch/nexo/releases/latest)**.
 
 ### Windows 10/11 (64 bits)
-1. Baixe `nexo-…-windows-x64.zip` e extraia numa pasta sua (por exemplo, `Documentos\Nexo`).
-2. Abra o `nexo.exe`.
+1. Baixe `Nexo-…-Instalador-Windows.zip` e **extraia** (botão direito → **Extrair tudo**).
+2. Abra o **`Instalar Nexo ….exe`** e siga os passos.
 3. Na primeira vez, o Windows pode mostrar **"O Windows protegeu o computador"**, porque o Nexo ainda
    não tem certificado de assinatura pago. Clique em **Mais informações → Executar assim mesmo**.
 
-### Linux (x64)
-1. Baixe `nexo-…-linux-x64.tar.gz` e extraia:
+### Linux (qualquer distribuição x64)
+1. Baixe `Nexo-…-Instalador-Linux.tar.gz` e **extraia** (botão direito → **Extrair aqui**).
+2. Abra o **`Instalar-Nexo-…`** e siga os passos. Pelo terminal:
    ```bash
-   mkdir -p ~/Nexo && tar -xzf nexo-*-linux-x64.tar.gz -C ~/Nexo
+   tar -xzf Nexo-*-Instalador-Linux.tar.gz && ./Instalar-Nexo-*
    ```
-2. Abra com `~/Nexo/nexo`.
 3. Para jogos que só têm versão de Windows, instale o **Proton** (pela Steam) ou o **umu-launcher**.
+
+O mesmo pacote roda em Ubuntu, Fedora, Arch, Mint, SteamOS, Bazzite, CachyOS e outras, sem instalar nada
+antes.
+
+O instalador pergunta onde ficam o programa, os jogos de PC, os emuladores, os seus jogos de emulador e os
+backups dos saves (o recomendado é tudo numa pasta só) e cria os atalhos:
+
+![Instalador do Nexo](docs/capturas/instalador.jpg)
 
 No Steam Deck e em outros sistemas com o modo jogo da Steam, use **Configurações → Pôr o Nexo na Steam** para abri-lo em modo TV direto do modo jogo.
 
@@ -111,14 +126,20 @@ pacote antes de trocar qualquer arquivo.
 programas livres publicados pelos autores no GitHub, e cada um pede os arquivos do jogo que você já
 tem.
 
-**Onde ficam os jogos?** Na pasta que você escolher em **Configurações → Pastas** (por padrão,
-`Nexo/Jogos` no seu usuário). Cada jogo tem uma pasta por versão.
+**Onde ficam os jogos?** Nas pastas que você escolher no instalador ou em **Configurações → Pastas**:
+uma para os jogos de PC e outra para os emuladores (por padrão, `Nexo/Jogos/PC` e `Nexo/Jogos/Emuladores`
+no seu usuário). Cada jogo tem uma pasta por versão.
+
+**Como desinstalar o Nexo?** No Windows, em **Configurações → Aplicativos → Nexo**; no Linux, clique com
+o botão direito no Nexo no menu de aplicativos → **Desinstalar o Nexo**. Sai só o programa e os atalhos:
+jogos, emuladores e saves ficam onde estão.
 
 **Desinstalar um jogo apaga os meus saves?** Não. O Nexo só apaga os arquivos que ele mesmo instalou, e
 mostra antes o que vai sair.
 
-**Achei um projeto que não está no catálogo.** Use **Adicionar jogo** com o link do repositório, ou abra
-uma *issue* aqui para ele entrar no catálogo de todo mundo.
+**Achei um projeto que não está no catálogo.** Use **Adicionar jogo** (ou **Adicionar emulador**) com o
+link do repositório: ele já funciona na hora, no seu Nexo. Se quiser que entre no catálogo de todo mundo,
+abra uma *issue* aqui.
 
 ## Linha de comando
 
