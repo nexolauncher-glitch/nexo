@@ -69,6 +69,12 @@ Forgejo/Gitea hosts, for recomps, ports and emulators.
   play time.
 - On Linux, Windows-only games run through **Proton, umu-run or Wine**.
 
+**Collections and news**
+- **Collections by franchise**: 130+ series (Zelda, Mario, Sonic, Resident Evil...), each with its
+  games and, for each game, the recomps and ports that exist.
+- **News** tab with highlights from 20 Brazilian gaming sites; you choose which to follow, and each
+  story opens on its site.
+
 **Community**
 - 1–5 ratings and comments from players, on each project page and in the Community tab.
 - Sign in with Discord; it's optional and nothing is posted there. [Privacy](docs/privacidade.md).

@@ -68,6 +68,12 @@ Codeberg e outros Forgejo/Gitea, para recomps, ports e emuladores.
 - **Adicionar à Steam** com a capa do jogo: o atalho abre pelo Nexo, com versão, Proton e tempo de jogo.
 - No Linux, jogos de Windows rodam pelo **Proton, umu-run ou Wine**.
 
+**Coleções e notícias**
+- **Coleções por franquia**: mais de 130 séries (Zelda, Mario, Sonic, Resident Evil...), cada uma
+  com os seus jogos e, em cada jogo, os recomps e ports que existem.
+- Aba **Notícias** com os destaques de 20 sites brasileiros de games; você escolhe quais acompanhar,
+  e cada matéria abre no site.
+
 **Comunidade**
 - Notas de 1 a 5 e comentários de quem joga, na página de cada projeto e na aba Comunidade.
 - Entre com o Discord; é opcional e nada é publicado lá. [Privacidade](docs/privacidade.md).

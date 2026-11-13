@@ -6,6 +6,43 @@ O Nexo instalado avisa quando sai uma versão nova e só atualiza com o seu OK.
 
 *English summary at the end of each version.*
 
+## [1.3.0] — 13/11/2026
+
+### Novidades
+- **Notícias**: nova aba com os destaques de 20 sites brasileiros de games, consoles, emulação e
+  PC (IGN Brasil, Adrenaline, GameBlast, Nintendo Blast, Critical Hits, MeuPlayStation, Arkade...).
+  - Uma matéria em destaque e as outras em grade, com imagem, site e há quanto tempo saiu.
+  - **Escolher sites**: ligue e desligue os que você quer acompanhar. Os de tecnologia em geral
+    começam desligados.
+  - O clique abre a matéria no site, no navegador. A aba se atualiza sozinha a cada 30 minutos ou
+    no botão **Atualizar**.
+- **Coleções por franquia**: Zelda, Mario, Sonic, Resident Evil, Doom, Pokémon e mais de 130
+  séries, cada uma com os seus jogos e, em cada jogo, os recomps e ports que existem para ele.
+  - Fileira **Coleções** no Início, página com todas (com busca) e a página de cada coleção.
+  - Na página de um jogo, o selo **Coleção** leva direto para a série.
+- **Jogos novos no catálogo**:
+  - **Hookshot**, o Zelda: Ocarina of Time do Switch 2;
+  - **DKB Recomp**, o Donkey Kong Bananza, com instalador;
+  - o fork **local-prs** do DKB Recomp.
+  - Os dois jogos abrem o destaque do Início.
+
+### Melhorias
+- A barra de cima cabe inteira mesmo com a janela no tamanho mínimo.
+- A capa e o banner de um jogo podem ser fixados no catálogo, quando a busca automática acharia
+  outro jogo com o mesmo nome (um remake, por exemplo).
+
+### English
+New **News** tab: highlights from 20 Brazilian gaming, console, emulation and PC sites, with a
+featured story and a grid with image, site and time; **Choose sites** turns each site on or off
+(general tech sites start off); a click opens the story in your browser; it refreshes every 30
+minutes or with **Refresh**. New **Collections by franchise**: Zelda, Mario, Sonic, Resident Evil,
+Doom, Pokémon and 130+ series, each with its games and, for each game, the recomps and ports that
+exist; a Collections row on Home, a page with all of them (with search), a page per collection and a
+**Collection** badge on game pages. New in the catalog: **Hookshot** (Zelda: Ocarina of Time,
+Switch 2), **DKB Recomp** (Donkey Kong Bananza, with installer) and its **local-prs** fork; both
+games lead the Home carousel. The top bar now fits at the minimum window size, and the catalog can pin
+a game's cover and banner when the automatic search would find another game with the same name.
+
 ## [1.2.0] — 12/11/2026
 
 ### Novidades
