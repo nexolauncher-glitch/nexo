@@ -6,6 +6,51 @@ O Nexo instalado avisa quando sai uma versão nova e só atualiza com o seu OK.
 
 *English summary at the end of each version.*
 
+## [1.4.0] — 15/11/2026
+
+### Novidades
+- **Um card por jogo**: os recomps e ports do mesmo jogo agora ficam juntos no Descobrir e nas
+  fileiras do Início. O Zelda: Ocarina of Time, por exemplo, virou um card só com os seus 16
+  projetos, em vez de vários cards soltos.
+  - O selo no canto da capa diz quantos projetos o jogo tem.
+  - Na página do jogo, a lista **"N projetos de…"** vai do mais recomendado ao menos: primeiro os
+    que têm versão para baixar e mais estrelas no GitHub. Cada linha mostra o console de origem e os
+    sistemas.
+  - Num atalho da Steam de um jogo com vários projetos, o nome vira "Jogo - Projeto".
+- **68 projetos novos no catálogo**, lançados nos últimos 60 dias:
+  - **Switch 2:** Mario Kart World (3 projetos), Pokémon Pokopia, Star Fox, Fire Emblem: Fortune's
+    Weave, Donkey Kong Bananza e mais 5 do Ocarina of Time (NX2navi, Longshot, Project ReLink...).
+  - **Switch:** Super Mario Odyssey, Xenoblade Chronicles 2 e 3, Smash Ultimate, Pokémon Scarlet e
+    Violet, Metroid Prime 4.
+  - **Xbox 360:** GTA V, Ninja Gaiden II, Battlefield 1943, Skate 2, PGR4, Chaves Kart e outros.
+  - **Xbox:** Panzer Dragoon Orta, Red Dead Revolver, Soulcalibur II, The Warriors, Halo 2 (em
+    desenvolvimento).
+  - **PS3:** Demon's Souls, inFAMOUS 2, God of War: Ascension, Resistance 1 e 3.
+  - **PS4:** Gravity Rush 2, Diablo III, Dead Nation, Resogun.
+  - **PS2:** GTA San Andreas, TimeSplitters 2, Haunting Ground, Shadow of Rome, Ratchet & Clank,
+    Crash: The Wrath of Cortex e outros.
+  - E ainda jogos de PS Vita, Pandora's Tower (Wii), Mario Kart Arcade GP, Monster Hunter 3
+    Ultimate (Wii U) e Castlevania: Grimoire of Souls.
+  - Mario Kart World, Pokopia, Super Mario Odyssey e GTA V entram no destaque do Início.
+
+### Melhorias
+- Nomes diferentes do mesmo jogo no catálogo foram unificados (o Ocarina of Time do N64, do 3DS e do
+  Switch 2 ficam juntos, por exemplo).
+- Um projeto que você adicionou à mão e que também está no catálogo herda o jogo, o console e as
+  estrelas de lá, e passa a aparecer junto dos outros projetos do mesmo jogo.
+
+### English
+**One card per game**: recomps and ports of the same game now share a single card in Discover and on
+the Home rows (Zelda: Ocarina of Time is one card with its 16 projects), with a badge showing how
+many projects there are. The game page lists them from most to least recommended (downloadable and
+most-starred first), with each one's source console and systems; Steam shortcuts for games with
+several projects are named "Game - Project". **68 new projects** released in the last 60 days,
+including Mario Kart World, Pokémon Pokopia, Super Mario Odyssey, Xenoblade 2 and 3, GTA V, Ninja
+Gaiden II, Demon's Souls, God of War: Ascension, Gravity Rush 2, TimeSplitters 2 and more; Mario
+Kart World, Pokopia, Super Mario Odyssey and GTA V join the Home carousel. Different spellings of the
+same game were merged, and a project you added by hand that's also in the catalog inherits its game,
+console and stars.
+
 ## [1.3.0] — 13/11/2026
 
 ### Novidades

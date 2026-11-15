@@ -49,6 +49,9 @@ Forgejo/Gitea hosts, for recomps, ports and emulators.
 - Two universes: **PC** (recomps and ports) and **Emulators**, each with its own Home, Library,
   Favorites and Discover.
 - Search, filters by console, platform and genre, sorting by popular, recent or A–Z.
+- **One card per game**: the many recomps and ports of the same game stay together. On the game page
+  they're listed from most to least recommended (downloadable and most-starred first), with each
+  one's source console and systems.
 - Automatic covers and banners from [SteamGridDB](https://www.steamgriddb.com), with no setup; or your own.
 - Add any project from a GitHub, Codeberg or other Forgejo/Gitea link.
 
@@ -93,6 +96,10 @@ Forgejo/Gitea hosts, for recomps, ports and emulators.
 | ![Discover](docs/capturas/descobrir.jpg) | ![Game page](docs/capturas/jogo.jpg) |
 | **Emulators** | **Downloads** |
 | ![Emulators](docs/capturas/inicio-emuladores.jpg) | ![Downloads](docs/capturas/downloads.jpg) |
+
+**Every project for a game, from most to least recommended**
+
+![Projects for a game](docs/capturas/projetos.jpg)
 
 **TV mode**
 

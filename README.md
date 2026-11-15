@@ -49,6 +49,9 @@ Codeberg e outros Forgejo/Gitea, para recomps, ports e emuladores.
 - Dois universos: **PC** (recomps e ports) e **Emuladores**, cada um com Início, Biblioteca,
   Favoritos e Descobrir próprios.
 - Busca, filtros por console, plataforma e gênero, e ordenação por populares, recentes ou A a Z.
+- **Um card por jogo**: os vários recomps e ports do mesmo jogo ficam juntos. Na página do jogo
+  eles aparecem do mais recomendado ao menos (com versão para baixar e mais estrelas primeiro),
+  com o console de origem e os sistemas de cada um.
 - Capas e banners automáticos, do [SteamGridDB](https://www.steamgriddb.com), sem configurar nada; ou os seus.
 - Adicione qualquer projeto pelo link do GitHub, Codeberg ou outro Forgejo/Gitea.
 
@@ -92,6 +95,10 @@ Codeberg e outros Forgejo/Gitea, para recomps, ports e emuladores.
 | ![Descobrir](docs/capturas/descobrir.jpg) | ![Página do jogo](docs/capturas/jogo.jpg) |
 | **Emuladores** | **Downloads** |
 | ![Emuladores](docs/capturas/inicio-emuladores.jpg) | ![Downloads](docs/capturas/downloads.jpg) |
+
+**Todos os projetos de um jogo, do mais recomendado ao menos**
+
+![Projetos de um jogo](docs/capturas/projetos.jpg)
 
 **Modo TV**
 
