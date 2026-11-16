@@ -28,7 +28,8 @@ atualizar e preparar o jogo.
 
 O **Nexo** junta tudo isso num launcher leve, para Windows e Linux:
 
-- um **catálogo com mais de 1.700 projetos** e mais de 20 emuladores, com capa, banner e estrelas;
+- um **catálogo com mais de 2.800 projetos de mais de 1.700 jogos** e mais de 20 emuladores, com capa,
+  banner e estrelas;
 - **instala e atualiza com um clique**, baixando sempre da release oficial de quem fez o projeto;
 - confere o **SHA-256** de cada arquivo e **nunca apaga os seus saves**;
 - tem **modo TV** com controle, para jogar no sofá ou no Steam Deck.
@@ -71,6 +72,15 @@ Codeberg e outros Forgejo/Gitea, para recomps, ports e emuladores.
 - **Adicionar à Steam** com a capa do jogo: o atalho abre pelo Nexo, com versão, Proton e tempo de jogo.
 - No Linux, jogos de Windows rodam pelo **Proton, umu-run ou Wine**.
 
+**Espaço em disco**
+- Guia **Armazenamento**: quanto o Nexo ocupa em cada disco, jogo por jogo e versão por versão, com
+  o caminho de cada pasta. Uma barra por disco separa jogos de PC, emuladores, versões antigas, saves,
+  downloads e o que é de outros programas.
+- **Detalhes de qualquer pasta**, como num analisador de disco: do maior para o menor, até o arquivo.
+- **Sugestões de limpeza** que nunca tocam nos saves: versões antigas que saem sem perder nada seu,
+  downloads guardados e sobras de instalações. Antes de apagar, a lista do que vai sair.
+- Antes de baixar, confere se o jogo cabe no disco.
+
 **Coleções e notícias**
 - **Coleções por franquia**: mais de 130 séries (Zelda, Mario, Sonic, Resident Evil...), cada uma
   com os seus jogos e, em cada jogo, os recomps e ports que existem.
@@ -93,16 +103,22 @@ Codeberg e outros Forgejo/Gitea, para recomps, ports e emuladores.
 | Descobrir | Página do jogo |
 |---|---|
 | ![Descobrir](docs/capturas/descobrir.jpg) | ![Página do jogo](docs/capturas/jogo.jpg) |
-| **Emuladores** | **Downloads** |
-| ![Emuladores](docs/capturas/inicio-emuladores.jpg) | ![Downloads](docs/capturas/downloads.jpg) |
+| **Biblioteca** | **Downloads** |
+| ![Biblioteca](docs/capturas/biblioteca.jpg) | ![Downloads](docs/capturas/downloads.jpg) |
+| **Coleções** | **Notícias** |
+| ![Coleções](docs/capturas/colecoes.jpg) | ![Notícias](docs/capturas/noticias.jpg) |
+| **Emuladores** | **Modo TV** |
+| ![Emuladores](docs/capturas/inicio-emuladores.jpg) | ![Modo TV](docs/capturas/modo-tv.jpg) |
 
 **Todos os projetos de um jogo, do mais recomendado ao menos**
 
 ![Projetos de um jogo](docs/capturas/projetos.jpg)
 
-**Modo TV**
+**Armazenamento: quanto cada jogo ocupa e o que dá para liberar**
 
-![Modo TV](docs/capturas/modo-tv.jpg)
+![Armazenamento](docs/capturas/armazenamento.jpg)
+
+![Armazenamento, jogo por jogo](docs/capturas/armazenamento-jogos.jpg)
 
 ## Como instalar
 
@@ -161,7 +177,7 @@ abra uma *issue* aqui.
 ## Linha de comando
 
 Junto vem o `nexo-cli`, para scripts e servidores: `nexo-cli ajuda` lista tudo. Os principais são `lista`,
-`instalar <id>`, `verificar`, `atualizar`, `jogar <id>` e `remover <id>`.
+`instalar <id>`, `verificar`, `atualizar`, `jogar <id>`, `remover <id>` e `espaco`.
 
 ## Créditos e licença
 

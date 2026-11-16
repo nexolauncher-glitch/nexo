@@ -6,6 +6,46 @@ O Nexo instalado avisa quando sai uma versão nova e só atualiza com o seu OK.
 
 *English summary at the end of each version.*
 
+## [1.5.0] — 16/11/2026
+
+### Novidades
+- **Armazenamento**: nova guia (o botão de disco na barra de cima) que mostra quanto o Nexo ocupa em
+  cada disco, jogo por jogo e versão por versão.
+  - **Por disco**: uma barra para cada disco com o que é jogo de PC, emulador, versão antiga, saves e
+    backups, downloads e dumps, o que é de outros programas e o espaço livre.
+  - **Jogo por jogo**: os projetos do mesmo jogo ficam juntos. Abrindo um jogo, aparece cada versão
+    (a em uso e as antigas), o preparo e o jogo montado, os backups dos saves e o resto da pasta, com
+    o caminho, o tamanho e quantos arquivos tem. Filtro por jogos de PC ou emuladores.
+  - **Detalhes de uma pasta**, como num analisador de disco: o que tem dentro, do maior para o
+    menor, entrando nas subpastas até o arquivo, e o botão para abrir a pasta.
+  - **Sugestões de limpeza**: versões antigas que saem sem perder nada seu, downloads guardados,
+    downloads que pararam no meio e sobras de instalações interrompidas. Nada sai sem uma janela
+    mostrando antes a lista do que vai ser apagado, e os saves nunca entram.
+  - Também mostra as pastas que não são de nenhum jogo instalado (sobras de jogos desinstalados) e
+    um jogo que ficou com pastas em dois lugares depois de a biblioteca mudar de disco. Essas o Nexo
+    só mostra: você abre e decide.
+  - A medição roda em segundo plano e fica guardada: a guia abre na hora e mede de novo quando a
+    biblioteca muda ou no botão **Medir de novo**.
+- `nexo-cli espaco`: o mesmo relatório na linha de comando.
+
+### Melhorias
+- **Aviso de pouco espaço**: antes de baixar, o Nexo confere se cabem o download e o jogo
+  extraído. Se não couber, avisa na hora, em vez de o download falhar no meio.
+
+### English
+New **Storage** tab (the drive button on the top bar): how much Nexo takes up on each drive, game by
+game and version by version. A bar per drive splits PC games, emulators, old versions, saves and
+backups, downloads and dumps, other programs and free space. **Game by game** groups each game's
+projects and lists every version (in use and old), preparation data, save backups and the rest of
+the folder, with path, size and file count, filtered by PC games or emulators. **Folder details**
+work like a disk analyzer: contents from largest to smallest, down to the file. **Cleanup
+suggestions** cover old versions that can go without losing anything of yours, kept and unfinished
+downloads and leftovers from interrupted installs; nothing is deleted without a window listing what
+will go, and saves are never included. Folders that belong to no installed game, and games left in
+two places after the library moved, are shown but never deleted. Measuring runs in the background and
+is saved, so the tab opens instantly. Also `nexo-cli espaco`, and a **low space warning** before a
+download that wouldn't fit.
+
 ## [1.4.0] — 15/11/2026
 
 ### Novidades

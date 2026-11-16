@@ -28,7 +28,7 @@ to install, update and set up the game.
 
 **Nexo** brings all of that together in a lightweight launcher for Windows and Linux:
 
-- a **catalog of 1,700+ projects** and 20+ emulators, with covers, banners and stars;
+- a **catalog of 2,800+ projects for 1,700+ games** and 20+ emulators, with covers, banners and stars;
 - **one-click install and updates**, always downloaded from the official release of each project;
 - **SHA-256 checks** on every file, and it **never deletes your saves**;
 - a **TV mode** with full controller support, for the couch or the Steam Deck.
@@ -72,6 +72,15 @@ Forgejo/Gitea hosts, for recomps, ports and emulators.
   play time.
 - On Linux, Windows-only games run through **Proton, umu-run or Wine**.
 
+**Disk space**
+- **Storage** tab: how much Nexo takes up on each drive, game by game and version by version, with
+  each folder's path. A bar per drive splits PC games, emulators, old versions, saves, downloads and
+  other programs.
+- **Details of any folder**, like a disk analyzer: largest first, down to the file.
+- **Cleanup suggestions** that never touch saves: old versions that can go without losing anything of
+  yours, kept downloads and install leftovers. Before deleting, a list of what will go.
+- Before downloading, it checks the game fits on the drive.
+
 **Collections and news**
 - **Collections by franchise**: 130+ series (Zelda, Mario, Sonic, Resident Evil...), each with its
   games and, for each game, the recomps and ports that exist.
@@ -94,16 +103,22 @@ Forgejo/Gitea hosts, for recomps, ports and emulators.
 | Discover | Game page |
 |---|---|
 | ![Discover](docs/capturas/descobrir.jpg) | ![Game page](docs/capturas/jogo.jpg) |
-| **Emulators** | **Downloads** |
-| ![Emulators](docs/capturas/inicio-emuladores.jpg) | ![Downloads](docs/capturas/downloads.jpg) |
+| **Library** | **Downloads** |
+| ![Library](docs/capturas/biblioteca.jpg) | ![Downloads](docs/capturas/downloads.jpg) |
+| **Collections** | **News** |
+| ![Collections](docs/capturas/colecoes.jpg) | ![News](docs/capturas/noticias.jpg) |
+| **Emulators** | **TV mode** |
+| ![Emulators](docs/capturas/inicio-emuladores.jpg) | ![TV mode](docs/capturas/modo-tv.jpg) |
 
 **Every project for a game, from most to least recommended**
 
 ![Projects for a game](docs/capturas/projetos.jpg)
 
-**TV mode**
+**Storage: how much each game takes up and what you can free**
 
-![TV mode](docs/capturas/modo-tv.jpg)
+![Storage](docs/capturas/armazenamento.jpg)
+
+![Storage, game by game](docs/capturas/armazenamento-jogos.jpg)
 
 ## Install
 
@@ -162,7 +177,7 @@ repository link: it works right away, in your Nexo. If you'd like it in everyone
 ## Command line
 
 Nexo ships with `nexo-cli` for scripts and servers: `nexo-cli ajuda` lists everything. The main commands
-are `lista`, `instalar <id>`, `verificar`, `atualizar`, `jogar <id>` and `remover <id>`.
+are `lista`, `instalar <id>`, `verificar`, `atualizar`, `jogar <id>`, `remover <id>` and `espaco`.
 
 ## Credits and license
 
